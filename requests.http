@@ -1,0 +1,25 @@
+POST http://localhost:3005/translate
+Content-Type: application/json
+
+
+### Register
+POST http://localhost:3005/register
+Content-Type: application/json
+
+{ "username": "reza", "password": "1" }
+
+### Login
+POST http://localhost:3005/login
+Content-Type: application/json
+
+{ "username": "reza", "password": "1" }
+
+
+### Get secure message
+GET http://localhost:3005/secure
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mjg5NzNlMWU5N2RhYjJmMThkYjczOTkiLCJpYXQiOjE2NTMxNzUyOTEsImV4cCI6MTY3MTE3NTI5MX0.8d_ZLmEGjlQRLUdN6vo8taH3MjrX-HSwHorQwrsc_eQ
+
+
+### GET users
+GET http://localhost:3005/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mjg5NzNlMWU5N2RhYjJmMThkYjczOTkiLCJpYXQiOjE2NTMxNzUyOTEsImV4cCI6MTY3MTE3NTI5MX0.8d_ZLmEGjlQRLUdN6vo8taH3MjrX-HSwHorQwrsc_eQ
