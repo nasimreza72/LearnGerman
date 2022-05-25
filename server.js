@@ -1,8 +1,5 @@
 import express from "express";
 import cors from "cors";
-import db from "./db.js";
-import axios from "axios";
-
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import * as dataBase from "./lib/database.js";
